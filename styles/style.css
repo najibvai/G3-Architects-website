@@ -11,6 +11,10 @@
 .display-flex {
     display: flex
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .bg-light {
     background-color: rgba(255, 144, 14, 0.1);
@@ -71,4 +75,13 @@
     font-weight: 400;
     font-size: 1rem;
     color: rgb(114, 114, 114);
+}
+.banner-image{
+    width: 100%;
+}
+/* ------------------------Responsive Media Query-------------------------- */
+@media screen and (max-width: 576px) {
+    .navber, .nav-links{
+        flex-direction: column;
+    }
 }
